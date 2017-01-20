@@ -265,6 +265,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GaugeView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = poon.GaugeView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +285,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GaugeView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = poon.GaugeView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -311,6 +313,10 @@
 				1C8E4FFD1E31BA6E00C4EA9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+<<<<<<< HEAD
+=======
+			defaultConfigurationName = Release;
+>>>>>>> 839ed33674121bff25a93fc4fc539d607d4d06fd
 		};
 /* End XCConfigurationList section */
 	};
