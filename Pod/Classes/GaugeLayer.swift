@@ -107,7 +107,7 @@ class GaugeLayer: CALayer {
   private func createGaugeAnimation(key: String) -> CABasicAnimation {
     let animation = CABasicAnimation(keyPath: key)
     animation.fromValue = self.presentation()?.value(forKey: key)
-    animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
+    animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
     animation.duration = Double(animationDuration)
     return animation
   }
